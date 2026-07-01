@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // ดึงข้อมูลจากไฟล์ JSON
-    fetch('apps.json')
+        // บังคับโหลดไฟล์ใหม่โดยใส่ Timestamp ต่อท้ายชื่อไฟล์
+        fetch(`apps.json?v=${new Date().getTime()}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');

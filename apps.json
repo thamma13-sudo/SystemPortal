@@ -12,5 +12,12 @@
     "description": "ระบบเฝ้าระวังและมอนิเตอร์สถานะเครื่องกำเนิดไฟฟ้า แรงดัน และกระแสไฟฟ้าแบบเรียลไทม์",
     "url": "https://thamma13-sudo.github.io/AmpCheck/",
     "icon": "⚡"
+  },
+  {
+    "id": 3,
+    "title": "ตรวจสอบปั๊มน้ำอัจฉริยะ (SWPI)",
+    "description": "ระบบ Smart Water Pump Inspection ตรวจสอบสถานะและบันทึกข้อมูลการทำงานของปั๊มน้ำอัจฉริยะ",
+    "url": "https://thamma13-sudo.github.io/SWPI/",
+    "icon": "💧"
   }
 ]

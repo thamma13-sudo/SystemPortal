@@ -19,5 +19,12 @@
     "description": "ระบบ Smart Water Pump Inspection ตรวจสอบสถานะและบันทึกข้อมูลการทำงานของปั๊มน้ำอัจฉริยะ",
     "url": "https://thamma13-sudo.github.io/SWPI/",
     "icon": "💧"
+  },
+  {
+    "id": 4,
+    "title": "ระบบจดบันทึกหน่วยไฟฟ้าและน้ำประปา (Smart Meter)",
+    "description": "ระบบบันทึก ตรวจสอบ และติดตามการใช้พลังงานไฟฟ้าและน้ำประปาภายในหน่วยงาน",
+    "url": "https://thamma13-sudo.github.io/SmartMeter/",
+    "icon": "📊"
   }
 ]

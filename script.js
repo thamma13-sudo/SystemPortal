@@ -15,10 +15,10 @@ function renderApps(apps) {
     const container = document.getElementById('app-container');
     if (!container) return; // ป้องกัน Error หากไม่มี Container ในหน้า HTML
     
-    // เคลียร์พื้นที่ด้านในก่อนเผื่อกรณีมีการโหลดซ้ำ
+    // เคลียร์พื้นที่ด้านในก่อนเพื่อรองรับการ Refresh หรือโหลดข้อมูลใหม่
     container.innerHTML = ''; 
 
-    // ใช้การต่อ String หรือสร้างการ์ดพร้อมกันเพื่อ Performanceที่ดีขึ้น
+    // วนลูปสร้างการ์ดของแต่ละแอป
     apps.forEach(app => {
         const card = document.createElement('div');
         card.className = 'card';
